@@ -1,0 +1,4 @@
+i,Integer
+j,Integer
+count,Integer
+temp,Integer

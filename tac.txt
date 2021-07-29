@@ -1,0 +1,41 @@
+i = var1
+j = var2
+count = var3
+out count
+count = var4
+if j = var5 goto 8
+goto 22
+if i <= var6 goto 10
+goto 21
+j = var7
+if j <= var8 goto 13
+goto 18
+var9 = count + var10
+count = var9
+var11 = j + var12
+j = var11
+goto 11
+var13 = i + var14
+i = var13
+goto 8
+goto 22
+out count
+if count < var15 goto 25
+goto 27
+out count
+goto 42
+elif count < var16 goto 29
+goto 42
+if count > var17 goto 31
+goto 41
+out j
+out count
+var19 = var18 / var20
+var23 = var22 / var24
+var21 = var19 * var23
+var27 = var26 * count
+var25 = var21 * var27
+i = var25
+out i
+goto 41
+goto 42
